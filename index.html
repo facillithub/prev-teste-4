@@ -3,23 +3,23 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>{{nomeEmpresa}} | {{slogan}}</title>
+  <title>teste 4 | Excelência garantida</title>
   
   <meta name="description" content="{{metaDescricao}}" />
-  <meta property="og:title" content="{{nomeEmpresa}}" />
-  <meta property="og:description" content="{{slogan}}" />
+  <meta property="og:title" content="teste 4" />
+  <meta property="og:description" content="Excelência garantida" />
   <meta property="og:image" content="{{linkImagemOg}}" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family={{fonteCorpo}}:wght@300;400;600&family={{fonteTitulo}}:wght@700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair Display:wght@700;800&display=swap" rel="stylesheet">
 
   <style>
     :root {
-      --primary: {{corPrimaria}};
+      --primary: #000000;
       --primary-hover: {{corPrimariaHover}};
-      --font-title: '{{fonteTitulo}}', serif;
-      --font-body: '{{fonteCorpo}}', sans-serif;
+      --font-title: 'Playfair Display', serif;
+      --font-body: 'Inter', sans-serif;
       --dark: #0a0a0a;
       --gray: #1a1a1a;
       --text: #ffffff;
@@ -65,14 +65,18 @@
     /* Floating WhatsApp */
     .whatsapp { position: fixed; bottom: 2rem; right: 2rem; background: #25d366; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 10px 20px rgba(0,0,0,0.3); z-index: 100; }
     
-    {{featureFlagsCss}}
+    
+      
+      
+      
+    
   </style>
 </head>
 <body>
 
   <header>
     <div class="container nav">
-      <a href="#" class="logo">{{nomeEmpresa}}</a>
+      <a href="#" class="logo">teste 4</a>
       <div class="nav-links">
         <a href="#menu" class="btn-menu" style="color: white; margin-right: 2rem; text-decoration: none;">Cardápio</a>
         <a href="#reserva" class="btn">Reservar Mesa</a>
@@ -82,8 +86,8 @@
 
   <section class="hero">
     <div class="container hero-content">
-      <h1>{{nomeEmpresa}}</h1>
-      <p>{{slogan}}</p>
+      <h1>teste 4</h1>
+      <p>Excelência garantida</p>
       <a href="#menu" class="btn">Ver Cardápio</a>
     </div>
   </section>
@@ -104,7 +108,7 @@
     <div class="container">
       <h2 style="font-family: var(--font-title); font-size: 3rem; text-align: center;">Nosso Cardápio</h2>
       <div class="menu-grid">
-        {{cardapioHtml}}
+        <p class="text-center opacity-50 py-10">Cardápio em atualização...</p>
       </div>
     </div>
   </section>
@@ -122,12 +126,12 @@
     </div>
   </section>
 
-  <a href="https://wa.me/{{telefoneWhatsapp}}" class="whatsapp" target="_blank">
+  <a href="https://wa.me/" class="whatsapp" target="_blank">
     <svg width="30" height="30" fill="white" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.438 9.889-9.886.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.438-9.889 9.886-.001 2.225.586 3.735 1.726 5.462l-.943 3.45 3.706-.972z"/></svg>
   </a>
 
   <footer style="padding: 5rem 0; text-align: center; border-top: 1px solid #222;">
-    <p>&copy; {{nomeEmpresa}} - {{cidade}}</p>
+    <p>&copy; teste 4 - {{cidade}}</p>
   </footer>
 
 </body>
